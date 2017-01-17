@@ -1,0 +1,21 @@
+{
+    "name": "inani/codebird-wrapper",
+    "description": "Laravel Wrapper for codebird-php",
+    "keywords": ["codebird", "twitter", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inani El Houssain",
+            "email": "inanielhoussain@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+        "Inani\\CodebirdWrapper\\": "src/"
+      }
+    },
+    "require": {
+      "jublonet/codebird-php": "^3.0"
+    }
+}
